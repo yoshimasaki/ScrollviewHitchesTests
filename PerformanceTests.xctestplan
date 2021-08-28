@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "34508916-BF94-46BA-869C-3F4E69F6D31F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "uiTestingScreenshotsLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ScrollviewHitchesTests.xcodeproj",
+        "identifier" : "923108E126DA35DC002F4F53",
+        "name" : "ScrollviewHitchesTestsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

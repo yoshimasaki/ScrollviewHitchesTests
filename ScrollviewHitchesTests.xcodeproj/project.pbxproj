@@ -15,6 +15,7 @@
 		923108D126DA35DC002F4F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923108CF26DA35DC002F4F53 /* LaunchScreen.storyboard */; };
 		923108DC26DA35DC002F4F53 /* ScrollviewHitchesTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108DB26DA35DC002F4F53 /* ScrollviewHitchesTestsTests.swift */; };
 		923108E726DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108E626DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift */; };
+		923108F626DA5507002F4F53 /* ViewControllerTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108F526DA5507002F4F53 /* ViewControllerTestsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		923108E226DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollviewHitchesTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		923108E626DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewHitchesTestsUITests.swift; sourceTree = "<group>"; };
 		923108E826DA35DC002F4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923108F426DA545E002F4F53 /* PerformanceTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PerformanceTests.xctestplan; sourceTree = "<group>"; };
+		923108F526DA5507002F4F53 /* ViewControllerTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTestsUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		923108B826DA35DB002F4F53 = {
 			isa = PBXGroup;
 			children = (
+				923108F426DA545E002F4F53 /* PerformanceTests.xctestplan */,
 				923108C326DA35DB002F4F53 /* ScrollviewHitchesTests */,
 				923108DA26DA35DC002F4F53 /* ScrollviewHitchesTestsTests */,
 				923108E526DA35DC002F4F53 /* ScrollviewHitchesTestsUITests */,
@@ -124,6 +128,7 @@
 			children = (
 				923108E626DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift */,
 				923108E826DA35DC002F4F53 /* Info.plist */,
+				923108F526DA5507002F4F53 /* ViewControllerTestsUITests.swift */,
 			);
 			path = ScrollviewHitchesTestsUITests;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923108F626DA5507002F4F53 /* ViewControllerTestsUITests.swift in Sources */,
 				923108E726DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
