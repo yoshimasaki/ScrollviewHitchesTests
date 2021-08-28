@@ -15,7 +15,8 @@
 		923108D126DA35DC002F4F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923108CF26DA35DC002F4F53 /* LaunchScreen.storyboard */; };
 		923108DC26DA35DC002F4F53 /* ScrollviewHitchesTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108DB26DA35DC002F4F53 /* ScrollviewHitchesTestsTests.swift */; };
 		923108E726DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108E626DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift */; };
-		923108F626DA5507002F4F53 /* ViewControllerTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108F526DA5507002F4F53 /* ViewControllerTestsUITests.swift */; };
+		923108FE26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108FD26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.swift */; };
+		9231090526DA5BF3002F4F53 /* ViewControllerPerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923108F526DA5507002F4F53 /* ViewControllerPerformanceUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,13 @@
 			remoteInfo = ScrollviewHitchesTests;
 		};
 		923108E326DA35DC002F4F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923108B926DA35DB002F4F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923108C026DA35DB002F4F53;
+			remoteInfo = ScrollviewHitchesTests;
+		};
+		9231090026DA5BBB002F4F53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 923108B926DA35DB002F4F53 /* Project object */;
 			proxyType = 1;
@@ -51,7 +59,10 @@
 		923108E626DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewHitchesTestsUITests.swift; sourceTree = "<group>"; };
 		923108E826DA35DC002F4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923108F426DA545E002F4F53 /* PerformanceTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PerformanceTests.xctestplan; sourceTree = "<group>"; };
-		923108F526DA5507002F4F53 /* ViewControllerTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTestsUITests.swift; sourceTree = "<group>"; };
+		923108F526DA5507002F4F53 /* ViewControllerPerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPerformanceUITests.swift; sourceTree = "<group>"; };
+		923108FB26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollviewHitchesPerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923108FD26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewHitchesPerformanceUITests.swift; sourceTree = "<group>"; };
+		923108FF26DA5BBB002F4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		923108F826DA5BBB002F4F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +104,7 @@
 				923108C326DA35DB002F4F53 /* ScrollviewHitchesTests */,
 				923108DA26DA35DC002F4F53 /* ScrollviewHitchesTestsTests */,
 				923108E526DA35DC002F4F53 /* ScrollviewHitchesTestsUITests */,
+				923108FC26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests */,
 				923108C226DA35DB002F4F53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +115,7 @@
 				923108C126DA35DB002F4F53 /* ScrollviewHitchesTests.app */,
 				923108D726DA35DC002F4F53 /* ScrollviewHitchesTestsTests.xctest */,
 				923108E226DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.xctest */,
+				923108FB26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +148,18 @@
 			children = (
 				923108E626DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift */,
 				923108E826DA35DC002F4F53 /* Info.plist */,
-				923108F526DA5507002F4F53 /* ViewControllerTestsUITests.swift */,
 			);
 			path = ScrollviewHitchesTestsUITests;
+			sourceTree = "<group>";
+		};
+		923108FC26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				923108FD26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.swift */,
+				923108F526DA5507002F4F53 /* ViewControllerPerformanceUITests.swift */,
+				923108FF26DA5BBB002F4F53 /* Info.plist */,
+			);
+			path = ScrollviewHitchesPerformanceUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +218,24 @@
 			productReference = 923108E226DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		923108FA26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9231090226DA5BBB002F4F53 /* Build configuration list for PBXNativeTarget "ScrollviewHitchesPerformanceUITests" */;
+			buildPhases = (
+				923108F726DA5BBB002F4F53 /* Sources */,
+				923108F826DA5BBB002F4F53 /* Frameworks */,
+				923108F926DA5BBB002F4F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9231090126DA5BBB002F4F53 /* PBXTargetDependency */,
+			);
+			name = ScrollviewHitchesPerformanceUITests;
+			productName = ScrollviewHitchesPerformanceUITests;
+			productReference = 923108FB26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +253,10 @@
 						TestTargetID = 923108C026DA35DB002F4F53;
 					};
 					923108E126DA35DC002F4F53 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 923108C026DA35DB002F4F53;
+					};
+					923108FA26DA5BBB002F4F53 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 923108C026DA35DB002F4F53;
 					};
@@ -227,6 +278,7 @@
 				923108C026DA35DB002F4F53 /* ScrollviewHitchesTests */,
 				923108D626DA35DC002F4F53 /* ScrollviewHitchesTestsTests */,
 				923108E126DA35DC002F4F53 /* ScrollviewHitchesTestsUITests */,
+				923108FA26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +302,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		923108E026DA35DC002F4F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923108F926DA5BBB002F4F53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,8 +340,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				923108F626DA5507002F4F53 /* ViewControllerTestsUITests.swift in Sources */,
 				923108E726DA35DC002F4F53 /* ScrollviewHitchesTestsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923108F726DA5BBB002F4F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9231090526DA5BF3002F4F53 /* ViewControllerPerformanceUITests.swift in Sources */,
+				923108FE26DA5BBB002F4F53 /* ScrollviewHitchesPerformanceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +365,11 @@
 			isa = PBXTargetDependency;
 			target = 923108C026DA35DB002F4F53 /* ScrollviewHitchesTests */;
 			targetProxy = 923108E326DA35DC002F4F53 /* PBXContainerItemProxy */;
+		};
+		9231090126DA5BBB002F4F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923108C026DA35DB002F4F53 /* ScrollviewHitchesTests */;
+			targetProxy = 9231090026DA5BBB002F4F53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -553,6 +625,42 @@
 			};
 			name = Release;
 		};
+		9231090326DA5BBB002F4F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollviewHitchesPerformanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ScrollviewHitchesPerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollviewHitchesTests;
+			};
+			name = Debug;
+		};
+		9231090426DA5BBB002F4F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrollviewHitchesPerformanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ScrollviewHitchesPerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollviewHitchesTests;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,6 +696,15 @@
 			buildConfigurations = (
 				923108F226DA35DC002F4F53 /* Debug */,
 				923108F326DA35DC002F4F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9231090226DA5BBB002F4F53 /* Build configuration list for PBXNativeTarget "ScrollviewHitchesPerformanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9231090326DA5BBB002F4F53 /* Debug */,
+				9231090426DA5BBB002F4F53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
