@@ -14,10 +14,13 @@
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "ScrollviewHitchesPerformanceUITests"
+      ],
       "target" : {
         "containerPath" : "container:ScrollviewHitchesTests.xcodeproj",
-        "identifier" : "923108E126DA35DC002F4F53",
-        "name" : "ScrollviewHitchesTestsUITests"
+        "identifier" : "923108FA26DA5BBB002F4F53",
+        "name" : "ScrollviewHitchesPerformanceUITests"
       }
     }
   ],
